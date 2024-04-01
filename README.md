@@ -1,2 +1,2 @@
-# virt-isp-v4l2-media-controller-driver
-V4L2 Media Controller Driver for Virt ISP
+# VIRT ISP Media Controller Driver
+A Media Controller driver for a virtual (QEMU based) ISP.
