@@ -19,6 +19,8 @@
 
 static int virt_isp_probe(struct platform_device *pdev)
 {
+	int ret;
+
 	return ret;
 }
 
@@ -37,7 +39,7 @@ static struct platform_driver virt_isp_driver = {
 	.probe		= virt_isp_probe,
 	.remove		= virt_isp_remove,
 	.driver		= {
-		.name	= MEM2MEM_NAME,
+		.name	= "virt-isp",
 		.of_match_table = virt_isp_dt_ids,
 	},
 };

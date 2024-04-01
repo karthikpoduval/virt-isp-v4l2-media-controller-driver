@@ -1,4 +1,4 @@
-obj-m := virt-isp.o
+obj-m := virt-isp-core.o
 
 SRC := $(shell pwd)
 
